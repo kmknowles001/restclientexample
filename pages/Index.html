@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
+		
 		<meta charset="utf-8">
+		<script type="text/javascript" src="../script/ApiCalls.js"></script>
+		<!-- <script type="text/javascript" src="../script/ApiCalls.js"></script> -->
+		<link rel="stylesheet" href="../css/style.css">
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="Affordable and professional web design">
 		<meta name="author" content="Kevin Knowles">
 		<title>Acme Web Design</title>
-		<link rel="stylesheet" href="../Css/style.css">
 	</head>
 	<body>
 		<header>
@@ -25,11 +29,27 @@
 		</header>
 		<section id="showcase">
 			<div class="container">
-				<h1> Affordable Professional Web Design</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<h1>Data Services</h1>
+				<p>
+					Provide an atomic, context specific and low level access to a specific data domain e.g. Index data. Unlike other market data providers, services can be taken individually or in groups.
+					Unlike other data architecture approaches that try to tackle complex data problems within a single instance "data warehouse", data services break this complexity down to service level.
+					This has many benefits, the primary being that it only has to deliver a single data domain i.e. the solution (service) only looks to solve one problem and therefore can be
+					optimised to do so. This includes improved testing and therefore change, simplier architecture and support etc.
+				</p>
 			</div>
 		</section>
-		<section id="newsletter">
+
+		<section>
+
+
+			<div class="containerContent">
+				<h4>Index Service</h4>
+				<button onclick="getServerStatus()">Click to get status</button><br>
+				<div id=ServerResponseDiv></div>
+			</div>
+		</section>
+
+		<!-- <section id="newsletter">
 			<div class="container">
 				<h1>Subscribe to your newsletter</h1>
 				<form action="process.php">
@@ -63,9 +83,9 @@
 					</p>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
-		<footer>
+		<footer class="container">
 			<p>
 				Acme Web Design, Copyright &copy; 2018
 			</p>
